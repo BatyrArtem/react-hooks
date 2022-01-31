@@ -9,7 +9,6 @@ const Hover = () => {
 
     return (
         <div ref={ref} style={{width: 300, height: 300, background: isHovering ? 'red' : 'green'}}> {/*здесь ref={ref} это указываем ссылку на этот квадрат*/}
-
         </div>
     );
 };
